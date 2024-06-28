@@ -13,7 +13,7 @@ map<string, string> readConfigFile(const string& filename); //FOR CONFIG
 
 int main()
 {
-    string configFile = "config";//FOR CONFIG
+    string configFile = "config.txt";//FOR CONFIG
 
     map<string, string> configData = readConfigFile(configFile);//FOR CONFIG
     // WE NEED TO ADD VARIABLES OF CONFIG FILE AS configData["variable_name"]
@@ -123,7 +123,3 @@ int main()
 
 
 }
-
-
-//g++ -o temp LAMP.cpp
-//./temp
