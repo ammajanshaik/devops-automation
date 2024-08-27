@@ -1,5 +1,6 @@
 *** Settings ***
 Library           Process
+Library           OperatingSystem
 
 *** Variables ***
 ${harbor_registry}    http://<harbor-registry-url>
