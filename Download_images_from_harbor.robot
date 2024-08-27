@@ -1,6 +1,5 @@
 *** Settings ***
 Library           Process
-Resource          ../Keywords/connect_to_harbor.txt
 
 *** Variables ***
 ${harbor_registry}    http://<harbor-registry-url>
